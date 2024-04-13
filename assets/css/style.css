@@ -1,0 +1,51 @@
+body {
+  height: 100%;
+  width: 100vw;
+}
+
+header {
+  border: 1px solid black;
+  background-image: linear-gradient(to right, rgba(39,145,218), rgba(12,69,125));
+  height: 75px;
+ 
+}
+
+h1 {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  color: aliceblue;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.aa{
+  width:90%;
+}
+
+#search-button {
+  margin-top: 15px;
+}
+
+#five-day {
+  margin-left: 27%;
+}
+
+#report {
+  margin-left: 27%;
+ }
+
+.boxes {
+  height:200px;
+  width:150px;
+  background-color: midnightblue;
+  color:ghostwhite;
+ }
+
+ #current-city {
+  border: 1px solid black;
+ }
+
+#city-name {
+  width: 100%;
+}

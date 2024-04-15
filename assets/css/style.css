@@ -1,7 +1,4 @@
-body {
-  height: 100%;
-  width: 100vw;
-}
+
 
 header {
   border: 1px solid black;
@@ -19,21 +16,12 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-.aa{
-  width:90%;
-}
+
 
 #search-button {
   margin-top: 15px;
 }
 
-#five-day {
-  margin-left: 27%;
-}
-
-#report {
-  margin-left: 27%;
- }
 
 .boxes {
   height:200px;
@@ -48,4 +36,18 @@ h1 {
 
 #city-name {
   width: 100%;
+}
+
+.row {
+  block-size: gutter x 0;
+
+}
+#search-location{
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: flex-start;
+}
+
+#todayBox{
+  margin: 20px;
 }
